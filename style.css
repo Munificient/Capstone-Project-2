@@ -1,0 +1,73 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 2.5s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.grad {
+  background: linear-gradient(300deg, #eef0f1, #81f69a, #f1a902cf);
+  background-size: 180% 180%;
+  animation: gradient-animation 2.5s ease infinite;
+}
+
+.second-div{
+    display: flex;
+    align-items: center;
+}
+
+.third-div{
+    display: flex;
+    align-items: center;
+}
+
+.project-div{
+    padding-top: 5px;
+}
+.lead.mb-3.pb-3{
+    color: white ;
+    
+}
+
+@media screen and (min-width: 992px){
+    .skills{
+        justify-content: center;
+    } 
+}
+
+.contact{
+    list-style-type: none;
+}
+    
+.roboto-flex-about-me {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 927;
+  font-size: 450px;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -9,
+    "wdth" 100.2,
+    "GRAD" 90,
+    "XOPQ" 89,
+    "XTRA" 468,
+    "YOPQ" 54,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 742;
+}
+
